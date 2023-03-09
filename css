@@ -1,0 +1,79 @@
+:root {
+  --input-active-color: #E53B2B;
+}
+
+body {
+  background-color: black;
+  font-family: "Spinnaker", sans-serif;
+}
+
+.page-content ul li a {
+    color: #ffffff;
+}
+
+.brand,
+main h3 {
+  color: #ffffff;
+}
+
+header {
+  box-shadow: none;
+}
+
+header svg,
+header .user {
+  color: #E54040;
+}
+
+header .header-left,
+header .header-right {
+  background: black;
+}
+
+header .bike {
+  display: none;
+}
+
+.header-left nav ul li {
+  margin-left: 40px;
+}
+
+.page {
+  background-image: url('https://www.merlinentertainments.biz/media/1883/11-about-us-header-image-tp_1903x658.jpg?anchor=center&mode=crop&width=1903&height=658&rnd=131981766520000000%20?format=webp');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  overflow-y: auto;
+}
+
+.page-content ul li:hover a, .page-content ul li.selected a {
+  color: #E54040;
+}
+
+.page-content ul li:hover::before, 
+.page-content ul li.selected::before {
+  background-color: #E54040;
+}
+
+footer {
+  background: none;
+}
+
+td-uc-form {
+  color: #ffffff;   
+}
+
+td-uc-form .td-vertical-layout > .td-layout-content {
+  gap: 20px;
+}
+
+td-uc-form .td-form-actions {
+  margin-top: 30px;
+}
+
+td-uc-form .td-form-group .td-control-desc {
+  color: #ffffff;
+}
+
+td-uc-form .td-btn.td-secondary-btn.td-cancel-btn {
+  display: none;
+}
